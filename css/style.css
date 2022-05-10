@@ -1,0 +1,114 @@
+.corpo-geral {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cabecario {
+    display: flex;
+    justify-content: center;
+    background-color: #640d14;
+}
+
+.cabecario-tamanho {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tamanho-imagem-cabecario {
+    width: 100px;
+    height: 40px;
+    align-self: center;
+}
+
+.corpo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.corpor-one {
+    flex-grow: 3;
+    max-width: 550px;
+}
+
+.corpo-paragrafo {
+    margin: 25px 0 10px 0;
+}
+
+.corpo-titulo-tabela {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    margin: 20px 0 0 0;
+}
+
+table {
+    width: 520px;
+    margin: 10px 0 20px 0;
+    border: 0.5px solid black;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 0.5px solid black;
+    text-align: center;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+.corpo-titulo {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.corpo-imagem {
+    width: 520px;
+}
+
+.corpor-two {
+    flex-grow: 1;
+    background-color: #ad2e24;
+    max-width: 30vw;
+}
+
+.corpo-two-titulo {
+    margin: 25px 0 0 20px;
+    color: #ffe4c4;
+    font-size: large;
+}
+
+.corpo-lista {
+    margin: 8px 0 0 35px;
+    color: #ffe4c4;
+}
+
+.corpo-lista-tamanho-linha {
+    line-height: 22px;
+    list-style-type: disc;
+}
+
+.Footer {
+    background-color: #333333;
+}
+
+.footer-texto-link {
+    height: 30px;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-color {
+    color: white;
+    text-decoration-line: none;
+}
+
+.container-geral {
+    max-width: 968px;
+    width: 100vw;
+    display: flex;
+}
